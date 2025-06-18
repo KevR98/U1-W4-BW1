@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- HTML -->
+<html lang="en">
+  <!-- HEAD -->
+  <head>
+    <!-- META -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TITLE -->
+    <title>PokéQuiz EPICODE - Exam 🦘</title>
+    <!-- LINK CSS -->
+    <!-- <link rel="stylesheet" href="../assets/css/reset.css" /> -->
+    <link rel="stylesheet" href="../assets/css/exam.css" />
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ICONA -->
+    <link rel="icon" type="image/png" href="../assets/img/bg.jpg" />
+  </head>
+  <!-- BODY -->
+  <body>
+    <!-- HEADER -->
+    <header>
+      <img id="logo" src="../assets/img/epicode_logo.png" alt="Logo-EPICODE" />
+    </header>
+    <!-- MAIN -->
+    <main>
+      <div id="quiz-container">
+        <!-- questo wrapper serve per poterlo nascondere -->
+        <div id="question-container">
+          <div id="question"></div>
+          <div id="answers"></div>
+        </div>
+        <!-- progress tracker -->
+        <div id="progress">
+          QUESTION <span id="current"></span> <span id="slash"> / </span>
+          <span id="total"></span>
+        </div>
+      </div>
+    </main>
+    <!-- Timer -->
+    <div class="timer-container">
+      <svg width="130" height="130">
+        <circle
+          cx="65"
+          cy="65"
+          r="55"
+          stroke="rgba(255, 255, 255, 0.15)"
+          stroke-width="13"
+          fill="none"
+        />
+        <circle
+          id="progress-circle"
+          cx="65"
+          cy="65"
+          r="55"
+          stroke="#00FFFF"
+          stroke-width="14"
+          stroke-dasharray="282.6"
+          stroke-dashoffset="0"
+          fill="none"
+          transform="rotate(270 65 65)"
+        />
+      </svg>
+      <div class="number">
+        <div class="label top">SECONDS</div>
+        <div class="timer-text" id="timer">60</div>
+        <div class="label bottom">REMAINING</div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <!-- Link al mio GitHub -->
+      <a href="https://github.com/UnluckyRio/U1-BW-T4" target="_blank"
+        >Realizzato dal Team 4 "The Merger ✨"
+      </a>
+    </footer>
+  </body>
+  <!-- LINK JS -->
+  <script src="../script/script.js"></script>
+</html>

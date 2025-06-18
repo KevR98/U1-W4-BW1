@@ -1,0 +1,168 @@
+/* INFORMAZIONI GENERALI */
+html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+body {
+  background: url(../img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #e8e7ec;
+}
+
+/* LOGO */
+#logo {
+  padding-top: 50px;
+  padding-left: 125px;
+  height: auto;
+  width: 10%;
+}
+
+/* TITOLO */
+.title {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.title h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.title p {
+  margin-top: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* INFORMAZIONI ASIDE */
+aside {
+  display: flex;
+  margin-top: 2em;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+}
+
+/* SINISTRA CORRECT */
+
+#left h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+#left h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+#left p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* CENTRO TESTO AL CENTRO DEL DONUT */
+
+/* DESTRA WORNG */
+
+#right h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  color: #dcd2e1;
+}
+
+#right h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  color: #dcd2e1;
+}
+
+#right p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* INFORMAZIONI FOOTER */
+
+section {
+  text-align: center;
+  margin-top: 2em;
+}
+
+/* INFORMAZIONI BOTTONE */
+
+button {
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+  bottom: 20px;
+  border: solid 2px;
+  text-decoration: none;
+  height: 57px;
+  width: 216px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+  border-color: #e8e7ec;
+  box-shadow: 0px 0px 20px 1px #00ffffbc;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-5px);
+  button a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+button a {
+  text-decoration: none;
+  color: #e8e7ec;
+}
+/* FOOTER */
+footer {
+  width: 100%; /* Larghezza del footer */
+  text-align: center; /* Centra il testo del footer */
+  padding: 10px; /* Padding interno per il footer */
+  font-family: "inter", sans-serif; /* Font del footer */
+  font-size: 20px; /* Dimensione del testo del footer */
+  margin-top: auto; /* Spinge il footer in fondo alla pagina */
+  position: relative; /* Posizione relativa per il footer */
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 3px black; /* Colore di sfondo del footer */
+  border-top: solid 2px #e8e7ec; /* Bordo superiore per il footer */
+  color: #e8e7ec; /* Colore del testo del footer */
+  text-decoration: none; /* Rimuove la sottolineatura dal testo del footer */
+}
+/* Footer <a/> style */
+footer a {
+  color: #e8e7ec; /* Colore del link nel footer */
+  text-decoration: none; /* Rimuove la sottolineatura dal link */
+}
+footer a:hover {
+  color: #00eeff; /* Colore del link attivo nel footer */
+  cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+  text-decoration: none; /* Sottolinea il link al passaggio del mouse */
+}
